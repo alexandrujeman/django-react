@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "./manage.py", line 10, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "./manage.py", line 21, in <module>
+    main()
+  File "./manage.py", line 16, in main
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Traceback (most recent call last):
+  File "manage.py", line 10, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 16, in main
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 31, 2019 - 12:15:55
+Django version 3.0.1, using settings 'rest_api.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[31/Dec/2019 12:16:36] "GET /api/projects/v1/ HTTP/1.1" 200 937

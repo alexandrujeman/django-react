@@ -28,7 +28,7 @@ const ProjectState = props => {
   // Get projects
   const getProjects = async () => {
     try {
-      const res = await axios.get("/api/projects/v1/");
+      const res = await axios.get("http://127.0.0.1:8000/api/projects/v1/");
       dispatch({ type: GET_PROJECTS, payload: res.data });
     } catch (error) {
       dispatch({ type: PROJECT_ERROR, payload: error.response.msg });
