@@ -11,32 +11,32 @@ const ProjectForm = () => {
       setProject(current);
     } else {
       setProject({
-        project_name: "",
-        project_description: "",
-        project_sample: "",
-        project_link: "",
+        title: "",
+        description: "",
+        sample_url: "",
+        project_url: "",
         project_img: "",
-        project_img_pages: ""
+        pages_img: ""
       });
     }
   }, [projectContext, current]);
 
   const [project, setProject] = useState({
-    project_name: "",
-    project_description: "",
-    project_sample: "",
-    project_link: "",
+    title: "",
+    description: "",
+    sample_url: "",
+    project_url: "",
     project_img: "",
-    project_img_pages: ""
+    pages_img: ""
   });
 
   const {
-    project_name,
-    project_description,
-    project_sample,
-    project_link,
+    title,
+    description,
+    sample_url,
+    project_url,
     project_img,
-    project_img_pages
+    pages_img
   } = project;
 
   const onChange = e =>
@@ -63,28 +63,28 @@ const ProjectForm = () => {
       <input
         type='text'
         placeholder='Project Name'
-        name='project_name'
-        value={project_name}
+        name='title'
+        value={title}
         onChange={onChange}
       />
       <textarea
         placeholder='Project Description'
-        name='project_description'
-        value={project_description}
+        name='description'
+        value={description}
         onChange={onChange}
       />
       <input
         type='text'
         placeholder='Project link to source code'
-        name='project_sample'
-        value={project_sample}
+        name='sample_url'
+        value={sample_url}
         onChange={onChange}
       />
       <input
         type='text'
         placeholder='Project URL'
-        name='project_link'
-        value={project_link}
+        name='project_url'
+        value={project_url}
         onChange={onChange}
       />
       <input
@@ -97,8 +97,8 @@ const ProjectForm = () => {
       <input
         type='text'
         placeholder='Project Image URL secondary'
-        name='project_img_pages'
-        value={project_img_pages}
+        name='pages_img'
+        value={pages_img}
         onChange={onChange}
       />
       <div>

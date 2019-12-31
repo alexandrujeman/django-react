@@ -28,7 +28,7 @@ const ProjectState = props => {
   // Get projects
   const getProjects = async () => {
     try {
-      const res = await axios.get("/api/projects");
+      const res = await axios.get("/api/projects/v1/");
       dispatch({ type: GET_PROJECTS, payload: res.data });
     } catch (error) {
       dispatch({ type: PROJECT_ERROR, payload: error.response.msg });
@@ -44,7 +44,7 @@ const ProjectState = props => {
     };
 
     try {
-      const res = await axios.post("/api/projects", project, config);
+      const res = await axios.post("/api/projects/v1/", project, config);
       dispatch({ type: ADD_PROJECT, payload: res.data });
     } catch (error) {
       dispatch({ type: PROJECT_ERROR, payload: error.response.msg });
@@ -54,7 +54,7 @@ const ProjectState = props => {
   // Delete project
   const deleteProject = async id => {
     try {
-      await axios.delete(`/api/projects/${id}`);
+      await axios.delete(`/api/projects/v1/${id}`);
       dispatch({ type: DELETE_PROJECT, payload: id });
     } catch (error) {
       dispatch({ type: PROJECT_ERROR, payload: error.response.msg });
@@ -86,7 +86,7 @@ const ProjectState = props => {
 
     try {
       const res = await axios.put(
-        `/api/projects/${project.id}`,
+        `/api/projects/v1/${project.id}`,
         project,
         config
       );

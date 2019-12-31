@@ -6,7 +6,6 @@ import AuthContext from "../../context/auth/authContext";
 import ProjectContext from "../../context/project/projectContext";
 
 const Navbar = ({
-  title,
   iconHome,
   iconSkills,
   iconProjects,
@@ -38,7 +37,6 @@ const Navbar = ({
     <div className='navbar'>
       <NavLink to='/' alt='logo' className="logo">
         <img src={logo} className='app-logo' alt='AJ' />
-        {/* <div className='text-logo'>{title}<span className="dot">■</span></div> */}
         <div className="border-bottom"></div>
       </NavLink>
       <nav>
@@ -77,12 +75,10 @@ const Navbar = ({
 };
 
 Navbar.propTypes = {
-  title: PropTypes.string.isRequired,
   icon: PropTypes.string
 };
 
 Navbar.defaultProps = {
-  title: "J",
   iconGithub: "il:github",
   iconAbout: "fa-solid:user-circle",
   iconHome: "mdi:home",

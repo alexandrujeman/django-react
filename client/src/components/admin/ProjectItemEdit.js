@@ -8,9 +8,9 @@ const ProjectItemEdit = ({ project }) => {
 
   const {
     id,
-    project_name,
-    project_sample,
-    project_link,
+    title,
+    sample_url,
+    project_url,
   } = project;
 
   const onDelete = () => {
@@ -20,10 +20,10 @@ const ProjectItemEdit = ({ project }) => {
 
   return (
     <div className='card-preview'>
-      <h3>{project_name}</h3>
+      <h3>{title}</h3>
       <ul className='list'>
-        <li>{project_link}</li>
-        <li>{project_sample}</li>
+        <li>{sample_url}</li>
+        <li>{project_url}</li>
       </ul>
       <p>
         <button className='btn btn-animated' onClick={() => setCurrent(project)}>Edit</button>

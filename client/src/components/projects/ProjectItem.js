@@ -3,12 +3,12 @@ import React from "react";
 const ProjectItem = ({ project }) => {
   const {
     id,
-    project_name,
-    project_description,
-    project_sample,
-    project_link,
+    title,
+    description,
+    sample_url,
+    project_url,
     project_img,
-    project_img_pages
+    pages_img
   } = project;
 
   return (
@@ -16,7 +16,7 @@ const ProjectItem = ({ project }) => {
       <div className='card'>
         <a href={"#popup" + id} className='popup-link'>
           <div className='card-side card-side-front'>
-            <h3 className='project-name'>{project_name}</h3>
+            <h3 className='project-name'>{title}</h3>
             <img src={project_img} alt='' />
           </div>
         </a>
@@ -32,7 +32,7 @@ const ProjectItem = ({ project }) => {
         <div className='popup-content'>
           <div className='popup-left'>
             <img src={project_img} alt='' className='popup-img' />
-            <img src={project_img_pages} alt='' className='popup-img' />
+            <img src={pages_img} alt='' className='popup-img' />
           </div>
           <div className='popup-right'>
           <a href='#project-page' className='popup-close'>
@@ -42,11 +42,11 @@ const ProjectItem = ({ project }) => {
               data-inline='false'
             ></span>
           </a>
-            <h2 className='project-name'>{project_name}</h2>
-            <p className='popup-text'>{project_description}</p>
+            <h2 className='project-name'>{title}</h2>
+            <p className='popup-text'>{description}</p>
             <div className='btn-container'>
               <a
-                href={project_sample}
+                href={sample_url}
                 target='_blank'
                 className='btn btn-animated'
                 rel='noopener noreferrer'
@@ -54,7 +54,7 @@ const ProjectItem = ({ project }) => {
                 Code Sample
               </a>
               <a
-                href={project_link}
+                href={project_url}
                 target='_blank'
                 className='btn btn-animated'
                 rel='noopener noreferrer'

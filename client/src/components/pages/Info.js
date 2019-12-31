@@ -5,7 +5,7 @@ const Info = () => {
     <div className='page-content-container'>
       <div className='info'>
         <h1>Info {"{"}</h1>
-        <h2>Full stack app built with React, Sass, MySQL, Node.js, Express</h2>
+        <h2>Full stack app built with React, Sass, SQL, Python/Django</h2>
         <h1>{"}"}</h1>
       </div>
     </div>
