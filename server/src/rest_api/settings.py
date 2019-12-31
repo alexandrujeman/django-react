@@ -162,8 +162,11 @@ REST_FRAMEWORK = {
     ],
 }
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 CORS_ORIGIN_WHITELIST = [
     "https://alexjeman.com",
     "http://localhost:8000",
+    "http://localhost:5000",
     "http://localhost:3000"
 ]

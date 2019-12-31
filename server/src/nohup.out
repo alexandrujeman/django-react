@@ -34,3 +34,60 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 Watching for file changes with StatReloader
 [31/Dec/2019 12:16:36] "GET /api/projects/v1/ HTTP/1.1" 200 937
+[31/Dec/2019 12:25:50] "GET /admin/ HTTP/1.1" 200 6418
+[31/Dec/2019 12:25:50] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[31/Dec/2019 12:25:50] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[31/Dec/2019 12:25:50] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[31/Dec/2019 12:25:51] "GET /admin/ HTTP/1.1" 200 6418
+[31/Dec/2019 12:25:52] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[31/Dec/2019 12:25:52] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[31/Dec/2019 12:25:52] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[31/Dec/2019 12:25:52] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[31/Dec/2019 12:25:52] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[31/Dec/2019 12:25:52] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[31/Dec/2019 12:25:52] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[31/Dec/2019 12:37:30] "GET /admin/ HTTP/1.1" 200 6418
+[31/Dec/2019 12:39:53] "GET /api/projects/ HTTP/1.1" 200 5430
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[31/Dec/2019 12:39:53] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[31/Dec/2019 12:39:55] "GET /api/projects/v1/ HTTP/1.1" 200 7451
+[31/Dec/2019 12:39:55] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[31/Dec/2019 12:42:31] "GET /api/projects/v1/ HTTP/1.1" 200 937
+[31/Dec/2019 12:42:42] "GET /api/projects/v1/ HTTP/1.1" 200 937
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 31, 2019 - 12:16:19
+Django version 3.0.1, using settings 'rest_api.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[31/Dec/2019 12:45:05] "GET /api/projects/v1/ HTTP/1.1" 200 937
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 31, 2019 - 12:44:45
+Django version 3.0.1, using settings 'rest_api.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[31/Dec/2019 12:51:15] "GET /api/projects/v1/ HTTP/1.1" 200 937
+[31/Dec/2019 12:59:26] "GET /api/projects/v1/ HTTP/1.1" 200 7451
+[31/Dec/2019 12:59:27] "GET /api/projects/v1/ HTTP/1.1" 200 7451
+[31/Dec/2019 13:02:23] "GET /api/projects/v1/ HTTP/1.1" 200 937
+[31/Dec/2019 13:02:36] "GET /api/projects/v1/ HTTP/1.1" 200 937
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 31, 2019 - 12:48:55
+Django version 3.0.1, using settings 'rest_api.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
