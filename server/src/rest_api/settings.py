@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 from datetime import timedelta
-SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
+# SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -64,7 +64,7 @@ ROOT_URLCONF = 'rest_api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, '../frontend/templates/build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -173,6 +173,6 @@ CORS_ORIGIN_WHITELIST = [
     "http://127.0.0.1:3000"
 ]
 
-TEMPLATE_DIRS = (
-    os.path.join(SETTINGS_PATH, 'templates'),
-)
+# TEMPLATE_DIRS = (
+#     os.path.join(SETTINGS_PATH, 'templates'),
+# )
