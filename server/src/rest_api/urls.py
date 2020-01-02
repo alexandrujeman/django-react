@@ -29,6 +29,7 @@ urlpatterns = [
     # Djoser end points with simple_jwt
     url(r'^auth/', include('djoser.urls')),
     url(r'^auth/', include('djoser.urls.jwt')),
+    path('', include('frontend.urls')),
 ]
 
 #### Authentication endpoints ####

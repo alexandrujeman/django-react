@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 from datetime import timedelta
+SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'core',
+    'frontend',
     'djoser',
     'rest_framework_simplejwt',
     'corsheaders',
@@ -170,3 +172,7 @@ CORS_ORIGIN_WHITELIST = [
     "http://127.0.0.1:5000",
     "http://127.0.0.1:3000"
 ]
+
+TEMPLATE_DIRS = (
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
