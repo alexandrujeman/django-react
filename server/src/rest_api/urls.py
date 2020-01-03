@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
-from django.urls import path, include
+from django.urls import path, include, re_path
 from core.views import ProjectView
 from .api import router
 
@@ -29,7 +29,8 @@ urlpatterns = [
     # Djoser end points with simple_jwt
     url(r'^auth/', include('djoser.urls')),
     url(r'^auth/', include('djoser.urls.jwt')),
-    path('', include('frontend.urls')),
+    # React
+    re_path(r'^.*', include('frontend.urls')),
 ]
 
 #### Authentication endpoints ####
