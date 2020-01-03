@@ -128,6 +128,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, '../src/frontend/media')
+STATIC_ROOT = os.path.join(BASE_DIR, '../src/frontend/static')
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, '../src/frontend/templates/build/static'),
+)
+
+SITE_ID = 1
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
@@ -169,8 +179,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = [
     "https://alexjeman.com",
     "http://127.0.0.1:8000",
-    "http://127.0.0.1:5000",
-    "http://127.0.0.1:3000"
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:80"
 ]
 
 # TEMPLATE_DIRS = (
