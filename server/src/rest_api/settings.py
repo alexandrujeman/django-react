@@ -28,7 +28,7 @@ SECRET_KEY = 'cop$!y9@#pn$r3cof=ih79@#io(pnj3$@3k7jmt_t^(9gymzn1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['172.31.33.186', 'www.alexjeman.com', 'alexjeman.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
