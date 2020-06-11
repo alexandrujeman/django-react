@@ -7,7 +7,7 @@ const Skills = () => {
       <div className='skills'>
         <h1>Skills {"{"}</h1>
         <h2>React, SASS, JavaScript, Node.js, Python, Django</h2>
-        <h2>SQL, MongoDB</h2>
+        <h2>PostgreSQL</h2>
         <h1>{"}"}</h1>
         <Cube />
       </div>
