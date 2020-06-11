@@ -1,5 +1,5 @@
 import React, { useReducer } from "react";
-import uuid from "uuid";
+import { v5 as uuid } from 'uuid';
 import NotificationContext from "./notificationContext";
 import notificationReducer from "./notificationReducer";
 import { SET_NOTIFICATION, REMOVE_NOTIFICATION } from "../types";
