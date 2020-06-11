@@ -1,10 +1,14 @@
 .page-content-container {
   h1 {
+    transform: translateZ(2);
+    filter:blur(0px);
     line-height: 2rem;
     padding-bottom: 1.5rem;
   }
 
   h2 {
+    transform: translateZ(2);
+    filter:blur(0px);
     padding-bottom: 1rem;
   }
 

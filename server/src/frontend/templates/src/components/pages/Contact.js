@@ -3,6 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='page-content-container'>
+      <div className="background-image bgimage-1"></div>
       <div className='contact'>
         <h1>Contact {"{"}</h1>
         <h2>contact@alexjeman.com</h2>

@@ -1,7 +1,7 @@
 // Colors
 
 $bg-dark-one: rgb(29, 29, 30);
-$bg-dark-two: rgb(38, 38, 40);
+$bg-dark-two: rgba(38, 38, 40, 0.35);
 $bg-dark-three: #1d1d1d;
 $bg-dark-four: #00000033;
 $bg-dark-transparent: rgba(45, 48, 58, 0.45);
@@ -14,6 +14,7 @@ $color-red2: #e35357;
 $neon-primary: #c8d2da;
 $neon-secondary: #fcfcfc;
 $linear-gradient-one: linear-gradient(to right, #ff29ff57, #4fff6c7e);
+$linear-gradient-background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.7)); 
 $font-primary: "Roboto", Arial, sans-serif;
 $font-secondary: "Libre Baskerville";
 

@@ -1,0 +1,24 @@
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    filter:blur(5px); 
+}
+
+.bgimage-1 {
+    background: $linear-gradient-background, url('../backgrounds/background1.jpg') no-repeat center center;
+}
+
+.bgimage-2 {
+    background: $linear-gradient-background, url('../backgrounds/background2.jpg') no-repeat center center;
+}
+
+.bgimage-3 {
+    background: $linear-gradient-background, url('../backgrounds/background3.jpg') no-repeat center center;
+}
+
+.bgimage-4 {
+    background: $linear-gradient-background, url('../backgrounds/background4.jpg') no-repeat center center;
+}
