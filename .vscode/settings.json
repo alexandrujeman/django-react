@@ -1,4 +1,9 @@
 {
   "python.pythonPath": "/var/home/alexandrujeman/.local/share/virtualenvs/server-RiYmRa5Q/bin/",
-  "python.linting.pylintArgs": ["--load-plugins=pylint_django"]
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ],
+  "python.linting.pylintEnabled": false,
+  "python.linting.pydocstyleEnabled": true,
+  "python.linting.enabled": true
 }
