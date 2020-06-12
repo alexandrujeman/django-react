@@ -1,5 +1,5 @@
 node_modules
-portfolio_env
+py38
 
 ### Django ###
 *.log

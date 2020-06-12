@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className='page-content-container'>
-      <div className="background-image bgimage-1"></div>
+      <div className="background-image bgimage-home"></div>
       <div className='welcome'>
         <h1 className='font-secondary'>
           <span className='font-bigger'>A</span>LEX{" "}<span className='font-bigger'>J</span>EMAN</h1>
